@@ -1,0 +1,32 @@
+@font-face {
+    font-family: VellesaScript;
+    src: url("./Vellesa Script Demo.otf") format("opentype");
+}
+
+@font-face {
+    font-family: VellesaScript;
+    font-weight: bold;
+    src: url("./Vellesa Script Demo.otf") format("opentype");
+}
+
+@font-face {
+    font-family: LuisJorge;
+    src: url("./Louis George Cafe Light.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: LuisJorge;
+    font-weight: bold;
+    src: url("./Louis George Cafe Light.ttf") format("opentype");
+}
+
+
+.my-vellesa-big {
+    font-family: VellesaScript !important;
+    font-size: 2em;
+}
+
+.my-luis-jorge-cafe-light {
+    font-family: LuisJorge !important;
+    font-size: 2em;
+}
