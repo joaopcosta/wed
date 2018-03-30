@@ -1,12 +1,15 @@
 @font-face {
     font-family: VellesaScript;
-    src: url("./Vellesa Script Demo.woff") format("woff");
+    src: url("./Vellesa Script Demo.woff") format("woff"),
+         url("./Vellesa Script Demo.ttf") format("truetype");
+    
 }
 
 @font-face {
     font-family: VellesaScript;
     font-weight: bold;
-    src: url("./Vellesa Script Demo.woff") format("woff");
+    src: url("./Vellesa Script Demo.woff") format("woff"),
+         url("./Vellesa Script Demo.ttf") format("truetype");
 }
 
 @font-face {
