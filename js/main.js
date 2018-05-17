@@ -10,7 +10,7 @@ if (value == -1) {
     el1.innerHTML = 'É HOJE!!';
     el2.innerHTML = 'É HOJE!!';
 } else {
-    el1.innerHTML = 'Faltam apenas ' + (value + 1) + ' dias!';
-    el2.innerHTML = 'Faltam apenas ' + (value + 1) + ' dias!';
+    el1.innerHTML = 'Faltam apenas ' + (value) + ' dias!';
+    el2.innerHTML = 'Faltam apenas ' + (value) + ' dias!';
 }
 
