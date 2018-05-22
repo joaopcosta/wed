@@ -1,5 +1,8 @@
 var then = new Date(2018, 05, 02), // month is zero based
     now  = new Date;               // no arguments -> current date
+    now.setHours(0);
+    now.setMinutes(0);
+    now.setSeconds(0);
 var element = document.getElementsByClassName('my-counter');
 // 24 hours, 60 minutes, 60 seconds, 1000 milliseconds
 var value = Math.round((then - now) / (1000 * 60 * 60 * 24)); // round the amount of days
